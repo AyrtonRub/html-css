@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Imagens Dinâmicas</h1>
+    </header>
+    <P>
+        Tente abrir este site em vários dispositivos diferentes ou simplesmenteaumente e duminua o tamanho do seu navegador.
+    </P>
+    
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png.png" type="image/png">
+            <img src="imagens/foto-g.png.png" alt="imagem grande">
+        </picture>
+    <h1>Reproduzindo Aúdio</h1>
+    <p>Vamos aprender a reproduzair aúdios em HTML5</p>
+    <audio preload="metadata"  controls>
+        <source src="midia/WhatsApp Audio 2023-02-09 at 18.54.46.mpeg" type="audio/mpeg">
+        <source src="midia/WhatsApp Audio 2023-02-09 at 18.54.46.mp3" type="audio/mp3">
+        <source src="midia/WhatsApp Audio 2023-02-09 at 18.54.46.wav" type="audio/wav">
+
+        <p>Infelimente o seu navegador não é compátivel com o audi. <a href="midia/WhatsApp Audio 2023-02-09 at 18.54.46.mpeg">Click aki para baixar</a></p>
+    </audio>
+</body>
+</html>
