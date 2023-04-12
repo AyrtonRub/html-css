@@ -9,6 +9,10 @@
     --font3: 'Sriracha', cursiva;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -16,15 +20,15 @@
 
 header {
     background-color: black;
-    padding-top: 50px;
     color: white;
     text-align: center;
 }
 
 header  h1 {
+    padding-top: 50px;
     font-family: var(--font2);
     font-variant: small-caps;
-    font-size: 8.5em;
+    font-size: 10vw;
 }
 
 header > p {
@@ -42,12 +46,12 @@ header p > a:hover {
 }
 
 section {
-    font-size: 47px;
+    font-size: 3.5vw;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 section p {
@@ -60,12 +64,14 @@ section.imagem {
     background-size: cover ;
     background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.384);
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.356);
-    max-width: 550px;
-    
+    display: inline-block; 
+    padding: 5px;
+    text-shadow: 1px, 1px, 0px black;
 }
 
 section#img01 {
