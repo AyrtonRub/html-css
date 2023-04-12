@@ -55,9 +55,17 @@ section p {
 }
 
 section.imagem {
+    max-width: 100%;
+    background-color: rgb(51, 51, 51);
     background-size: cover ;
     background-attachment: fixed;
     color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.356);
+    max-width: 550px;
+    
 }
 
 section#img01 {
@@ -67,4 +75,21 @@ section#img01 {
 section#img02 {
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: var(--font1);
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
