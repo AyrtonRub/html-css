@@ -10,6 +10,11 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
 }
 
 h1 {
@@ -17,4 +22,5 @@ h1 {
     text-shadow: 2px 2px 0px #15259c;
     padding: 10px;
 }
+
 
